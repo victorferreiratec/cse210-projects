@@ -12,6 +12,6 @@ class Program
         
         // Space between lines
         Console.WriteLine();
-        Console.WriteLine($"Your name is {last}, {first} {last}.");
+        Console.WriteLine($"Your name is {last}, {first} {last}");
     }
 }

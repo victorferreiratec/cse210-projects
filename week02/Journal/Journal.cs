@@ -44,7 +44,7 @@ public class Journal
                 using (StreamReader reader = new StreamReader(filename))
                 {
                     string firstLine = reader.ReadLine();
-                    if (firstLine.StartsWith("PASSOWORD:"))
+                    if (firstLine.StartsWith("PASSWORD:"))
                     {
                         // Extract the saved passoword
                         existingPassword = firstLine.Substring(9);  
@@ -98,7 +98,7 @@ public class Journal
                 //Read and verify password
                 string firstLine = reader.ReadLine();
                 
-                string storedPassword = firstLine.Substring(9); // Extract stored password 
+                string storedPassword = firstLine.Substring(10); // Extract stored password 
                 Console.Write("Enter the password: ");
                 string enteredPassword = Console.ReadLine();
 

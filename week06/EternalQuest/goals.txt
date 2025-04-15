@@ -1,0 +1,4 @@
+2200
+SimpleGoal:Eat with my wife,Especial Dinner ,20,True
+EternalGoal:Participate of sacrament ,Go to the Church,100
+CheckListGoal:Exercise,Every day at 4pm,20,2000,5,5

@@ -1,0 +1,4 @@
+50
+SimpleGoal:Create a Program,Create websites about cooking ideas, family activities and travel.,50,True
+EternalGoal:Go to the Church,Take the sacrament.,10
+CheckListGoal:Exercise,Go to the gim every day at 4pm.,20,2000,5,0
